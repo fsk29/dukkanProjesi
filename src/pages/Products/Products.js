@@ -13,18 +13,19 @@ import Loading from '../../components/Loading';
 import Error from '../../components/Error';
 
 const Products = ({navigation}) => {
-  const {error, loading, data} = useFetch(Config.API_URL);
-  const handleProductSelect = () => {
-    navigation.navigate('DetailPage');
+  const {error, loading, data} = useFetch(Config.API_PRODUCT_URL);
+
+  const handleProductSelect = id => {
+    navigation.navigate('DetailPage', {id});
   };
+
   const renderProduct = ({item}) => (
-    <ProductCard product={item} onSelect={handleProductSelect} />
+    <ProductCard product={item} onSelect={() => handleProductSelect(item.id)} />
   );
 
   if (loading) {
     return <Loading />;
   }
-  console.log(error);
   if (error) {
     return <Error />;
   }
