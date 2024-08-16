@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    padding: 8,
+    padding: 18,
     backgroundColor: '#2286c3',
     alignItems: 'center',
     margin: 10,
@@ -12,7 +12,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 24,
     color: '#fff',
-    padding: 10,
   },
 });
 
