@@ -11,10 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		74D47F936D875DDA6044ECDD /* libPods-dukkanProjesi-dukkanProjesiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD867F4ED81E2D933494E60 /* libPods-dukkanProjesi-dukkanProjesiTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		EEE4145878D4E5ADBBD5FD8F /* libPods-dukkanProjesi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C46B7071B11C0DE8A5AEF2BE /* libPods-dukkanProjesi.a */; };
+		D6C5975D8F8FD1A9FBAADAE0 /* libPods-dukkanProjesi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BF37EB315287BD619522AD /* libPods-dukkanProjesi.a */; };
 		EF488C7F80A0F48702DDCADD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8D02D837EB3EA677FBACDBF9 /* PrivacyInfo.xcprivacy */; };
-		F9DE856F787B849E4D2D50EC /* libPods-dukkanProjesi-dukkanProjesiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D7818D391656DBA76F3642 /* libPods-dukkanProjesi-dukkanProjesiTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,7 @@
 		00E356EE1AD99517003FC87E /* dukkanProjesiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dukkanProjesiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* dukkanProjesiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dukkanProjesiTests.m; sourceTree = "<group>"; };
+		0FD867F4ED81E2D933494E60 /* libPods-dukkanProjesi-dukkanProjesiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dukkanProjesi-dukkanProjesiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* dukkanProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dukkanProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dukkanProjesi/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = dukkanProjesi/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,15 +39,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dukkanProjesi/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dukkanProjesi/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = dukkanProjesi/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		185D0581D9A803AA0D508E3C /* Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		302588B6D6649A642EB69C05 /* Pods-dukkanProjesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi.debug.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi.debug.xcconfig"; sourceTree = "<group>"; };
-		3155EC14D00278998756535C /* Pods-dukkanProjesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi.release.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi.release.xcconfig"; sourceTree = "<group>"; };
-		56C5B68207BA4696BF6375E5 /* Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig"; sourceTree = "<group>"; };
+		31BD6D1D263933E16547B0BE /* Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig"; sourceTree = "<group>"; };
+		497852544C41C9962A12F8B2 /* Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7279550F656A9FE29E976F1A /* Pods-dukkanProjesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi.release.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dukkanProjesi/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87BF37EB315287BD619522AD /* libPods-dukkanProjesi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dukkanProjesi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D02D837EB3EA677FBACDBF9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = dukkanProjesi/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		C46B7071B11C0DE8A5AEF2BE /* libPods-dukkanProjesi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dukkanProjesi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F9208F0EFB48DE21793DBB /* Pods-dukkanProjesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukkanProjesi.debug.xcconfig"; path = "Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F9D7818D391656DBA76F3642 /* libPods-dukkanProjesi-dukkanProjesiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dukkanProjesi-dukkanProjesiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DE856F787B849E4D2D50EC /* libPods-dukkanProjesi-dukkanProjesiTests.a in Frameworks */,
+				74D47F936D875DDA6044ECDD /* libPods-dukkanProjesi-dukkanProjesiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE4145878D4E5ADBBD5FD8F /* libPods-dukkanProjesi.a in Frameworks */,
+				D6C5975D8F8FD1A9FBAADAE0 /* libPods-dukkanProjesi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				C46B7071B11C0DE8A5AEF2BE /* libPods-dukkanProjesi.a */,
-				F9D7818D391656DBA76F3642 /* libPods-dukkanProjesi-dukkanProjesiTests.a */,
+				87BF37EB315287BD619522AD /* libPods-dukkanProjesi.a */,
+				0FD867F4ED81E2D933494E60 /* libPods-dukkanProjesi-dukkanProjesiTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +145,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				302588B6D6649A642EB69C05 /* Pods-dukkanProjesi.debug.xcconfig */,
-				3155EC14D00278998756535C /* Pods-dukkanProjesi.release.xcconfig */,
-				185D0581D9A803AA0D508E3C /* Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig */,
-				56C5B68207BA4696BF6375E5 /* Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig */,
+				E8F9208F0EFB48DE21793DBB /* Pods-dukkanProjesi.debug.xcconfig */,
+				7279550F656A9FE29E976F1A /* Pods-dukkanProjesi.release.xcconfig */,
+				497852544C41C9962A12F8B2 /* Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig */,
+				31BD6D1D263933E16547B0BE /* Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "dukkanProjesiTests" */;
 			buildPhases = (
-				C7013D1701FB807D8919ACFD /* [CP] Check Pods Manifest.lock */,
+				E346DD73618307B24AC78D9C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				30BD12827A3DA174BCD8F8C9 /* [CP] Embed Pods Frameworks */,
-				3DFFE47795821DB213619BC1 /* [CP] Copy Pods Resources */,
+				0C3C022673526C22D12D3AFA /* [CP] Embed Pods Frameworks */,
+				057174F47E9392A40C71B213 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,13 +181,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dukkanProjesi" */;
 			buildPhases = (
-				6FCC270B0B329146817F16D0 /* [CP] Check Pods Manifest.lock */,
+				28C7BF2FDF31F18A652F8196 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BF9B951C47CADD96DD334DDC /* [CP] Embed Pods Frameworks */,
-				601438B6ACDD3AABCBA3903C /* [CP] Copy Pods Resources */,
+				379F3A9477C913EE8237C637 /* [CP] Embed Pods Frameworks */,
+				D724E5FE20E21723D8C9EB50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,24 +271,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		30BD12827A3DA174BCD8F8C9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3DFFE47795821DB213619BC1 /* [CP] Copy Pods Resources */ = {
+		057174F47E9392A40C71B213 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,24 +288,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		601438B6ACDD3AABCBA3903C /* [CP] Copy Pods Resources */ = {
+		0C3C022673526C22D12D3AFA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi-dukkanProjesiTests/Pods-dukkanProjesi-dukkanProjesiTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6FCC270B0B329146817F16D0 /* [CP] Check Pods Manifest.lock */ = {
+		28C7BF2FDF31F18A652F8196 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,7 +327,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF9B951C47CADD96DD334DDC /* [CP] Embed Pods Frameworks */ = {
+		379F3A9477C913EE8237C637 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,7 +344,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C7013D1701FB807D8919ACFD /* [CP] Check Pods Manifest.lock */ = {
+		D724E5FE20E21723D8C9EB50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukkanProjesi/Pods-dukkanProjesi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E346DD73618307B24AC78D9C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,7 +416,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 185D0581D9A803AA0D508E3C /* Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig */;
+			baseConfigurationReference = 497852544C41C9962A12F8B2 /* Pods-dukkanProjesi-dukkanProjesiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +443,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56C5B68207BA4696BF6375E5 /* Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig */;
+			baseConfigurationReference = 31BD6D1D263933E16547B0BE /* Pods-dukkanProjesi-dukkanProjesiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,7 +467,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 302588B6D6649A642EB69C05 /* Pods-dukkanProjesi.debug.xcconfig */;
+			baseConfigurationReference = E8F9208F0EFB48DE21793DBB /* Pods-dukkanProjesi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -494,7 +494,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3155EC14D00278998756535C /* Pods-dukkanProjesi.release.xcconfig */;
+			baseConfigurationReference = 7279550F656A9FE29E976F1A /* Pods-dukkanProjesi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

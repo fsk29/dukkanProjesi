@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 
 const usePost = () => {
@@ -13,17 +13,21 @@ const usePost = () => {
       setError(null);
       setLoading(true);
 
-      const {data: responseData} = await axios.post(url, apiData);
-      setData(responseData);
+      const response = await axios.post(url, apiData);
+      setData(response.data);
     } catch (err) {
-      setError(err);
-      setData('hata');
+      // Check if the error is a 401 status code
+      if (err.response && err.response.status === 401) {
+        setError('Kullanıcı adı veya şifre hatalı. Lütfen tekrar deneyin.');
+      } else {
+        setError('Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.');
+      }
     } finally {
       setLoading(false);
     }
   };
 
-  return {data, loading, error, post};
+  return { data, loading, error, post };
 };
 
 export default usePost;

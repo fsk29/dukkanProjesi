@@ -1,33 +1,30 @@
-import React, {useState, useEffect} from 'react';
-import {SafeAreaView, Text, View, TextInput, Image, Alert} from 'react-native';
-import {Formik} from 'formik';
+import React, { useState, useEffect } from 'react';
+import { SafeAreaView, View, Image, Alert } from 'react-native';
+import { Formik } from 'formik';
 import styles from './Login.styles';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import usePost from '../../hooks/usePost';
 import Config from 'react-native-config';
-import {useDispatch} from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-const Login = ({navigation}) => {
-  const {data, loading, error, post} = usePost();
+const Login = () => {
+  const { data, loading, error, post } = usePost();
   const [showError, setShowError] = useState(false);
   const dispatch = useDispatch();
 
   useEffect(() => {
     if (error && !showError) {
       setShowError(true);
-      Alert.alert('Dükkan', 'Bir Hata Oluştu.');
+      Alert.alert('Dükkan', error);
     }
   }, [error]);
 
   useEffect(() => {
     if (data) {
-      if (data === 'hata' && !showError) {
-        setShowError(true);
-        Alert.alert('Error', 'Kullanıcı Bulunamadı');
-      } else if (data !== 'hata') {
-        dispatch({type: 'SET_USER', payload: {user}});
-        //navigation.navigate('ProductsPage');
+      if (!showError) {
+        dispatch({ type: 'SET_USER', payload: { user: data } });
+        // navigation.navigate('ProductsPage');
       }
     }
   }, [data]);
@@ -36,12 +33,10 @@ const Login = ({navigation}) => {
     setShowError(false);
     if (values.username === '') {
       Alert.alert('Hata', 'Kullanıcı Adını Giriniz.');
+    } else if (values.password === '') {
+      Alert.alert('Hata', 'Şifrenizi Giriniz.');
     } else {
-      if (values.password === '') {
-        Alert.alert('Hata', 'Şifrenizi Giriniz.');
-      } else {
-        post(Config.API_AUTH_URL + '/login', values);
-      }
+      post(Config.API_AUTH_URL + '/login', values);
     }
   }
 
@@ -54,9 +49,10 @@ const Login = ({navigation}) => {
         />
       </View>
       <Formik
-        initialValues={{username: '', password: ''}}
-        onSubmit={handleLogin}>
-        {({handleSubmit, handleChange, values}) => (
+        initialValues={{ username: '', password: '' }}
+        onSubmit={handleLogin}
+      >
+        {({ handleSubmit, handleChange, values }) => (
           <View style={styles.body_container}>
             <Input
               placeholder="Kullanıcı Adını Giriniz"
@@ -81,26 +77,3 @@ const Login = ({navigation}) => {
 };
 
 export default Login;
-
-const user = {
-  address: {
-    geolocation: {
-      lat: '-37.3159',
-      long: '81.1496',
-    },
-    city: 'kilcoole',
-    street: 'new road',
-    number: 7682,
-    zipcode: '12926-3874',
-  },
-  id: 1,
-  email: 'john@gmail.com',
-  username: 'johnd',
-  password: 'm38rmF$',
-  name: {
-    firstname: 'john',
-    lastname: 'doe',
-  },
-  phone: '1-570-236-7033',
-  __v: 0,
-};
